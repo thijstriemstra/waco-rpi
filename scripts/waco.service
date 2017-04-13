@@ -4,9 +4,8 @@ After=syslog.target network.target
 
 [Service]
 Type=simple
-User=waco
-WorkingDirectory={{ venv_home }}
-ExecStart={{ venv_home }}/bin/python {{ venv_home }}/fooservice.py --serve-in-foreground
+User=pi
+ExecStart=$VIRTUAL_ENV/bin/python /home/pi/projects/waco-rpi/waco_demo2.py
 Restart=on-abort
 
 [Install]
