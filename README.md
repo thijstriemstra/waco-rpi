@@ -7,6 +7,7 @@ Enable the service on startup:
 ```
 cd scripts
 sudo cp waco.service /lib/systemd/system/
+sudo cp waco.env /etc/default/waco
 ```
 
 ```
@@ -16,7 +17,7 @@ sudo systemctl start waco.service
 
 Monitor status with:
 ```
-sudo systemctl status waco.service
+sudo systemctl status waco.service -l
 ```
 
 Usage
