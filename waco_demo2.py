@@ -150,6 +150,6 @@ def main(num_iterations=sys.maxsize, fps=1):
 
 if __name__ == "__main__":
     try:
-        main(fps=1.2)
+        main(fps=1)
     except KeyboardInterrupt:
         pass
