@@ -1,0 +1,13 @@
+[Unit]
+Description=waco
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=waco
+WorkingDirectory={{ venv_home }}
+ExecStart={{ venv_home }}/bin/python {{ venv_home }}/fooservice.py --serve-in-foreground
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target

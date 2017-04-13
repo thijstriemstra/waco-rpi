@@ -1,5 +1,15 @@
 Scripts for running headless Pi Zero in a Waco mini TV.
 
+Installation
+------------
+
+Enable the service on startup:
+```
+cd scripts
+sudo systemctl enable waco.service
+sudo systemctl start waco.service
+```
+
 Usage
 -----
 
