@@ -30,7 +30,8 @@ setup(
     install_requires=[
         "luma.core>=0.7.4",
         "luma.emulator>=0.1.2",
-        "luma.lcd>=0.3.4"
+        "luma.lcd>=0.3.4",
+        "av"
     ],
     classifiers=[
         "License :: OSI Approved :: MIT License",
