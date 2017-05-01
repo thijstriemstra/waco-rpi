@@ -28,7 +28,7 @@ setup(
     keywords="raspberry orange banana pi rpi lcd display screen spi i2c",
     url="https://github.com/thijstriemstra/waco-rpi",
     install_requires=[
-        "luma.core>=0.7.4",
+        "luma.core>=0.9.0",
         "luma.emulator>=0.1.2",
         "luma.lcd>=0.3.4",
         "av"
