@@ -1,7 +1,7 @@
 Scripts for running headless Pi Zero inside a Waco mini TV.
 
-Installation
-------------
+Documentation
+-------------
 
 ```
 sudo apt-get install -y libavformat-dev libavcodec-dev libavdevice-dev libavutil-dev libswscale-dev libavresample-dev libavfilter-dev

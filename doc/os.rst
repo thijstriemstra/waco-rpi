@@ -68,6 +68,11 @@ When an error occurs during install, the logfile is placed in the
 ``raspberrypi-ua-netinst`` folder on the SD-card and is named
 ``error-<datetimestamp>.log``.
 
+Next
+^^^^
+
+Package :doc:`the application <package>`.
+
 .. _raspberrypi-ua-netinst: https://github.com/FooDeas/raspberrypi-ua-netinst
 .. _build raspberrypi-ua-netinst: https://github.com/FooDeas/raspberrypi-ua-netinst/blob/master/BUILD.md
 .. _write the image: https://www.raspberrypi.org/documentation/installation/installing-images/linux.md
