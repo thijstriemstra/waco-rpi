@@ -1,0 +1,2 @@
+PYTHONPATH=/opt/waco-rpi/luma.examples/examples/
+WACO_OPTS=--config /opt/waco-rpi/waco.conf

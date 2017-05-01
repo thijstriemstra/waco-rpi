@@ -15,7 +15,7 @@ Or to update::
 
   sudo gem update fpm
 
-package the application into a ``.deb`` file::
+Package the application into a ``.deb`` file::
 
   cd scripts
   ./package-app.sh

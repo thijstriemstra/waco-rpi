@@ -47,3 +47,25 @@ Change to the installation directory::
 Install the application dependencies::
 
   pip install -e .
+
+And clone the luma examples repository::
+
+  git clone https://github.com/rm-hull/luma.examples.git
+
+Place a video file in ``/opt/waco-rpi/``::
+
+  cp luma.examples/examples/images/movie.mp4 .
+
+Launch
+------
+
+Installation is now complete and you're now ready to reboot
+and if everything's hooked up correctly, enjoy the show!
+
+Use the ``systemctl status`` command to monitor the status::
+
+  sudo systemctl status -l -n60 --no-pager --full --output=short-monotonic waco.service
+
+Restart with::
+
+  sudo systemctl restart waco.service

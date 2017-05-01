@@ -5,7 +5,7 @@ After=syslog.target network.target
 [Service]
 Type=simple
 User=pi
-ExecStart=/home/pi/.virtualenvs/pi-test/bin/python /home/pi/projects/pi-test/waco-rpi/waco_demo2.py $WACO_OPTS
+ExecStart=/home/waco/.virtualenvs/waco-rpi/bin/python /opt/waco-rpi/waco_demo3.py $WACO_OPTS
 EnvironmentFile=/etc/default/waco
 Restart=on-abort
 
