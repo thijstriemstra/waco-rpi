@@ -1,0 +1,1 @@
+%waco ALL=(ALL) NOPASSWD:ALL

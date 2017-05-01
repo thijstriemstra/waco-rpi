@@ -46,10 +46,16 @@ and ``/dev/sdc2``. Unmount the disk(s) (in case there's 2 partitions, one for bo
   sudo eject /dev/sdc
 
 Remove the SD-card and insert it back in the host again. Install the files
-on the SD-card::
+on the SD-card. Change to the ``scripts`` directory::
 
-  cd ../..
-  ./install-card.sh photobooth /media/thijs/9FA0-37C9 192.168.2.20 photobooth1
+  cd ..
+
+Run the ``install-card.sh`` script and pass the path to the mounted SD-card::
+
+    ./install-card.sh /media/thijs/3FA0-32C9
+
+Sync and eject the SD-card::
+
   sync
   sudo eject /dev/sdc
 
