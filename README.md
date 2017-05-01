@@ -1,4 +1,4 @@
-Scripts for running headless Pi Zero in a Waco mini TV.
+Scripts for running headless Pi Zero inside a Waco mini TV.
 
 Installation
 ------------

@@ -1,3 +1,6 @@
+# Copyright Collab 2017
+# See LICENSE for details.
+
 import time
 import datetime
 from demo_opts import get_device

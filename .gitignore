@@ -5,3 +5,5 @@ __pycache__
 .project
 .pydevproject
 .settings/
+
+doc/_build

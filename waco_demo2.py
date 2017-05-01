@@ -1,3 +1,6 @@
+# Copyright Collab 2017
+# See LICENSE for details.
+
 from __future__ import unicode_literals
 
 import os
