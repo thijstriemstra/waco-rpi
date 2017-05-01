@@ -23,6 +23,7 @@ check_setuptools_features()
 setup(
     name="waco-rpi",
     author="Thijs Triemstra",
+    version="0.3.0",
     description="Scripts for running a headless Pi Zero in a Waco mini TV.",
     license="MIT",
     keywords="raspberry orange banana pi rpi lcd display screen spi i2c",

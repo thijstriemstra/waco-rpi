@@ -15,6 +15,7 @@ Install the latest ``pip``::
 Install it using Python 3.4::
 
   sudo python3.4 get-pip.py
+  rm get-pip.py
 
 Install ``virtualenvwrapper``::
 
@@ -31,15 +32,18 @@ And log out and in again.
 Application
 -----------
 
+Install the .deb file we :doc:`packaged earlier <package>`::
+
+  dpkg -i waco-rpi_0.3.0-2_armhf.deb
+
 Create a ``waco-rpi`` virtualenv::
 
   mkvirtualenv waco-rpi
 
-Move the waco-rpi.deb to the RaspberryPi::
+Change to the installation directory::
 
-  scp waco-rpi.deb waco@192.168.2.52:/home/waco/
+  cd /opt/waco-rpi/
 
-Install the .deb file::
+Install the application dependencies::
 
-  dpkg
-
+  pip install -e .
