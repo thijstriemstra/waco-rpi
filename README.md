@@ -10,8 +10,8 @@ sudo apt-get install -y libavformat-dev libavcodec-dev libavdevice-dev libavutil
 Enable the service on startup:
 ```
 cd scripts
-sudo cp waco.service /lib/systemd/system/
-sudo cp waco.env /etc/default/waco
+sudo cp startup/waco.service /lib/systemd/system/
+sudo cp startup/waco.env /etc/default/waco
 ```
 
 ```
